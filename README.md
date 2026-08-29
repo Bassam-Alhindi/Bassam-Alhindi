@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://image.api.gen.ai/image_14.png" width="100%" alt="Bassam Alhindi Astromechanical Luxury Header">
+  <img src="header.png" width="100%">
 </p>
 
 # 👋 Hi there, I'm Bassam Alhindi
