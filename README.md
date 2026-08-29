@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="400" alt="Coding GIF">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,10,24&height=220&section=header&text=Bassam%20Alhindi&fontsize=50&fontAlign=50&fontAlignY=38&desc=Software%20Engineer%20%7C%20Full-Stack%20Developer&descAlign=50&descAlignY=62&animation=twinkle" width="100%">
 </p>
 
 # 👋 Hi there, I'm Bassam Alhindi
