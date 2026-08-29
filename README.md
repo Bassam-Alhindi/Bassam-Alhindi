@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://media.giphy.com/media/qgQUGG4dbv5BLOY4WC/giphy.gif" width="400" alt="Coding GIF">
+</p>
 # 👋 Hi there, I'm Bassam Alhindi
 ---
 
