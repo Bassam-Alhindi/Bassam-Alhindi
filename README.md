@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://image.api.gen.ai/image_10.png" width="100%" alt="Bassam Alhindi Luxury Animated Header">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=00F5D4&center=true&vCenter=true&width=600&height=70&lines=Bassam+Alhindi+--+Software+Engineer;Full-Stack+%26+Java+Developer;Building+Awesome+CS+Projects" />
 </p>
 
 # 👋 Hi there, I'm Bassam Alhindi
