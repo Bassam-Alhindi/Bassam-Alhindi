@@ -1,6 +1,6 @@
 <p align="center">
-  <img src="https://image.api.gen.ai/image_8.png" width="100%" alt="Bassam Alhindi Luxury Animated Header">
-</p>>
+  <img src="https://image.api.gen.ai/image_10.png" width="100%" alt="Bassam Alhindi Luxury Animated Header">
+</p>
 
 # 👋 Hi there, I'm Bassam Alhindi
 ---
