@@ -1,0 +1,95 @@
+<svg width="100%" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<radialGradient id="cosmicAmb" cx="50%" cy="50%" r="50%">
+<stop offset="0%" stop-color="#7c3aed" stop-opacity="0.16"/>
+<stop offset="55%" stop-color="#1e40af" stop-opacity="0.07"/>
+<stop offset="100%" stop-color="#1e40af" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="edgeFade" cx="50%" cy="50%" r="62%">
+<stop offset="0%" stop-color="#0d1117" stop-opacity="0"/>
+<stop offset="70%" stop-color="#0d1117" stop-opacity="0"/>
+<stop offset="100%" stop-color="#0d1117" stop-opacity="1"/>
+</radialGradient>
+<radialGradient id="coreG" cx="50%" cy="50%" r="50%">
+<stop offset="0%" stop-color="#000000"/>
+<stop offset="72%" stop-color="#000000"/>
+<stop offset="88%" stop-color="#1e1b4b" stop-opacity="0.85"/>
+<stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="photonRing" cx="50%" cy="50%" r="50%">
+<stop offset="60%" stop-color="#a855f7" stop-opacity="0"/>
+<stop offset="84%" stop-color="#c4b5fd" stop-opacity="0.5"/>
+<stop offset="92%" stop-color="#67e8f9" stop-opacity="0.32"/>
+<stop offset="100%" stop-color="#67e8f9" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="diskG" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#1e3a8a" stop-opacity="0.12"/>
+<stop offset="25%" stop-color="#3b82f6" stop-opacity="0.7"/>
+<stop offset="50%" stop-color="#c084fc" stop-opacity="0.9"/>
+<stop offset="75%" stop-color="#7c3aed" stop-opacity="0.65"/>
+<stop offset="100%" stop-color="#1e3a8a" stop-opacity="0.12"/>
+</linearGradient>
+<linearGradient id="diskG2" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#a855f7" stop-opacity="0.08"/>
+<stop offset="35%" stop-color="#67e8f9" stop-opacity="0.55"/>
+<stop offset="65%" stop-color="#a855f7" stop-opacity="0.7"/>
+<stop offset="100%" stop-color="#3b82f6" stop-opacity="0.08"/>
+</linearGradient>
+</defs>
+<style>
+.spinA{animation:sa 14s linear infinite;transform-origin:600px 150px}
+@keyframes sa{from{transform:rotate(0)}to{transform:rotate(360deg)}}
+.spinB{animation:sb 20s linear infinite;transform-origin:600px 150px}
+@keyframes sb{from{transform:rotate(0)}to{transform:rotate(-360deg)}}
+.spinC{animation:sc 9s linear infinite;transform-origin:600px 150px}
+@keyframes sc{from{transform:rotate(0)}to{transform:rotate(360deg)}}
+.br{animation:br 8s ease-in-out infinite}
+@keyframes br{0%,100%{opacity:.65}50%{opacity:1}}
+.tw{animation:tw 3.4s ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.12}50%{opacity:.7}}
+</style>
+<rect width="1200" height="300" fill="#0d1117"/>
+<circle class="br" cx="600" cy="150" r="330" fill="url(#cosmicAmb)"/>
+
+<g fill="#ffffff">
+<circle class="tw" cx="120" cy="48" r="1.2"/><circle class="tw" cx="255" cy="86" r="1" style="animation-delay:.5s"/>
+<circle class="tw" cx="180" cy="212" r="1.1" style="animation-delay:1s"/><circle class="tw" cx="370" cy="36" r="1" style="animation-delay:1.5s"/>
+<circle class="tw" cx="72" cy="142" r="1.1" style="animation-delay:2s"/><circle class="tw" cx="948" cy="42" r="1.2" style="animation-delay:.3s"/>
+<circle class="tw" cx="1088" cy="106" r="1" style="animation-delay:.8s"/><circle class="tw" cx="1026" cy="230" r="1.1" style="animation-delay:1.3s"/>
+<circle class="tw" cx="1152" cy="186" r="1" style="animation-delay:1.8s"/><circle class="tw" cx="838" cy="264" r="1.1" style="animation-delay:2.3s"/>
+<circle class="tw" cx="300" cy="268" r="1" style="animation-delay:2.8s"/><circle class="tw" cx="490" cy="26" r="1" style="animation-delay:.9s"/>
+<circle class="tw" cx="742" cy="20" r="1.1" style="animation-delay:1.6s"/><circle class="tw" cx="1160" cy="60" r="1" style="animation-delay:2.5s"/>
+<circle class="tw" cx="40" cy="250" r="1" style="animation-delay:3.1s"/><circle class="tw" cx="640" cy="282" r="1" style="animation-delay:1.1s"/>
+</g>
+<g fill="#a855f7" opacity="0.35">
+<circle class="tw" cx="215" cy="128" r="0.9" style="animation-delay:1.2s"/>
+<circle class="tw" cx="985" cy="160" r="0.9" style="animation-delay:2.4s"/>
+</g>
+
+<g class="spinB" opacity="0.5">
+<ellipse cx="600" cy="150" rx="248" ry="66" fill="none" stroke="url(#diskG2)" stroke-width="15"/>
+</g>
+<g class="spinA">
+<ellipse cx="600" cy="150" rx="204" ry="51" fill="none" stroke="url(#diskG)" stroke-width="20"/>
+<ellipse cx="600" cy="150" rx="204" ry="51" fill="none" stroke="url(#diskG)" stroke-width="4" opacity="0.7"/>
+</g>
+<g class="spinC" opacity="0.75">
+<ellipse cx="600" cy="150" rx="146" ry="35" fill="none" stroke="url(#diskG2)" stroke-width="11"/>
+</g>
+
+<circle cx="600" cy="150" r="115" fill="url(#photonRing)" class="br"/>
+<circle cx="600" cy="150" r="75" fill="none" stroke="#c4b5fd" stroke-width="3" opacity="0.5" class="br"/>
+<circle cx="600" cy="150" r="66" fill="url(#coreG)"/>
+<circle cx="600" cy="150" r="58" fill="#000000"/>
+
+<g class="spinA" opacity="0.6">
+<circle cx="804" cy="150" r="3" fill="#e9d5ff"/>
+<circle cx="396" cy="150" r="2.6" fill="#67e8f9"/>
+</g>
+<g class="spinC" opacity="0.7">
+<circle cx="746" cy="150" r="2.6" fill="#c4b5fd"/>
+<circle cx="454" cy="150" r="2.2" fill="#93c5fd"/>
+</g>
+
+<rect width="1200" height="300" fill="url(#edgeFade)"/>
+</svg>
