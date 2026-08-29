@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="header.png" width="100%">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,10,25,30&height=250&section=header&text=Bassam%20Alhindi&fontSize=45&fontColor=ffffff&animation=twinkling" width="100%" />
 </p>
 
 # 👋 Hi there, I'm Bassam Alhindi
