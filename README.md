@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1200&auto=format&fit=crop" width="100%">
-</p>
 
 # 👋 Hi there, I'm Bassam Alhindi
 ---
